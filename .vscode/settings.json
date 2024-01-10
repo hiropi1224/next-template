@@ -5,7 +5,6 @@
     "source.fixAll.eslint": true
   },
   "editor.formatOnSave": true,
-  "eslint.packageManager": "yarn",
   "editor.quickSuggestions": { "strings": true },
   "eslint.workingDirectories": [{ "mode": "auto" }],
   "files.encoding": "utf8",

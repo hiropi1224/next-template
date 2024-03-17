@@ -3,15 +3,11 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
     "plugin:tailwindcss/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "prettier"
   ],
-  "plugins": [
-    "unicorn",
-    "unused-imports",
-    "tailwindcss"
-  ],
+  "plugins": ["unicorn", "unused-imports", "tailwindcss"],
   "rules": {
     "padding-line-between-statements": [
       "error",
@@ -58,9 +54,7 @@
           }
         ],
         "newlines-between": "always",
-        "pathGroupsExcludedImportTypes": [
-          "builtin"
-        ],
+        "pathGroupsExcludedImportTypes": ["builtin"],
         "alphabetize": {
           "order": "asc"
         }
@@ -70,10 +64,7 @@
     "no-console": [
       2,
       {
-        "allow": [
-          "warn",
-          "error"
-        ]
+        "allow": ["warn", "error"]
       }
     ],
     "unicorn/filename-case": [
